@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiml version="1.0.1">
+<category>
+		<pattern>TALK ABOUT USER</pattern>
+		<template>
+			<random>
+				<li>We should talk about you instead</li>
+				<li>I want to know more about you</li>
+				<li>Tell me more about who you are</li>
+			</random>
+		</template>
+	</category>
+	<category><pattern>WHY</pattern><that>I DO NOT KNOW</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>WHY *</pattern><that>I DO NOT KNOW</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>HOW COME</pattern><that>I DO NOT KNOW</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>?</pattern><that>I DO NOT KNOW</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>WHY</pattern><that>I DO NOT WANT TO TALK ABOUT IT</that><template>TALK ABOUT USER</template></category>
+	<category><pattern>HOW COME</pattern><that>I DO NOT WANT TO TALK ABOUT IT</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>WHY *</pattern><that>I DO NOT WANT TO TALK ABOUT IT</that><template><srai>TALK ABOUT USER</srai></template></category>
+	<category><pattern>?</pattern><that>I DO NOT WANT TO TALK ABOUT IT</that><template><srai>TALK ABOUT USER</srai></template></category>
+	
+	<category><pattern>REALLY</pattern><that>WE SHOULD TALK ABOUT YOU INSTEAD</that><template>Yes</template></category>
+	<category><pattern>REALLY</pattern><that>I WANT TO KNOW MORE ABOUT YOU</that><template>Yes</template></category>
+	<category><pattern>REALLY</pattern><that>TELL ME MORE ABOUT WHO YOU ARE</that><template>Yes</template></category>
+	<category><pattern>FOR REAL</pattern><that>WE SHOULD TALK ABOUT YOU INSTEAD</that><template>Yes</template></category>
+	<category><pattern>FOR REAL</pattern><that>I WANT TO KNOW MORE ABOUT YOU</that><template>Yes</template></category>
+	<category><pattern>FOR REAL</pattern><that>TELL ME MORE ABOUT WHO YOU ARE</that><template>Yes</template></category>
+	<category><pattern>* REALLY *</pattern><that>WE SHOULD TALK ABOUT YOU INSTEAD</that><template>Yes</template></category>
+	<category><pattern>* REALLY *</pattern><that>I WANT TO KNOW MORE ABOUT YOU</that><template>Yes</template></category>
+	<category><pattern>* REALLY *</pattern><that>TELL ME MORE ABOUT WHO YOU ARE</that><template>Yes</template></category>
+	<category><pattern>* FOR REAL</pattern><that>WE SHOULD TALK ABOUT YOU INSTEAD</that><template>Yes</template></category>
+	<category><pattern>* FOR REAL</pattern><that>I WANT TO KNOW MORE ABOUT YOU</that><template>Yes</template></category>
+	<category><pattern>* FOR REAL</pattern><that>TELL ME MORE ABOUT WHO YOU ARE</that><template>Yes</template></category>
+</aiml>
